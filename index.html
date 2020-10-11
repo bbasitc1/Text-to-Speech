@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Text to Speech</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Text Reader</h1>
+            <button class="btn btn-toggle" id="toggle">Toggle Text Box</button>
+            <div class="text-box" id="text-box">
+                <div class="btn close" id="close">X</div>
+                <h3>Choose Voices</h3>
+                <select id="voices"></select>
+                <textarea id="text" placeholder="Enter text..."></textarea>
+                <button class="btn" id="read">Read the Text</button>
+            </div>
+        </div>
+        <main></main>
+        <script src="script.js" ></script>
+    </body>
+</html>
